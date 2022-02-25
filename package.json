@@ -1,0 +1,19 @@
+{
+  "name": "developer-test",
+  "version": "1.0.0",
+  "description": "Please, **don't fork this repo**, clone it or download it locally and then commit changes after each task into a new repo of your own, and send us the link. We will get back to you shortly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limesharp/Developer-Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limesharp/Developer-Test/issues"
+  },
+  "homepage": "https://github.com/limesharp/Developer-Test#readme"
+}
