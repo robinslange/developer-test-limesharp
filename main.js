@@ -1,6 +1,6 @@
 repeat([1, 2, 3]);
 reformat("liMeSHArp DeveLoper TEST");
-next_binary_number([1,0,0,0,0,0,0,1]);
+next_binary_number([1, 0, 0, 0, 0, 0, 0, 1]);
 
 function repeat(array) {
   if (array.length <= 1) return;
@@ -13,9 +13,9 @@ function repeat(array) {
 function reformat(string) {
   if (string.length <= 0) return;
 
-  let vowels = /[aeiou]/gi;
-
-  let newString = string.replace(vowels, "");
+  // this is likely possible as a one-liner however
+  // for readability i've kept it as two separate functions
+  let newString = string.replace(/[aeiou]/gi, "");
   newString =
     newString.charAt(0).toUpperCase() + newString.slice(1).toLowerCase();
 
