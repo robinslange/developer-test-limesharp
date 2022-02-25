@@ -1,7 +1,3 @@
-repeat([1, 2, 3]);
-reformat("liMeSHArp DeveLoper TEST");
-next_binary_number([1, 0, 0, 0, 0, 0, 0, 1]);
-
 function repeat(array) {
   if (array.length <= 1) return;
 
