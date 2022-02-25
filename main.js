@@ -1,5 +1,5 @@
 function repeat(array) {
-  if (array.length <= 1) return;
+  if (array.length <= 0) return;
 
   let newArray = Array(3).fill(array).join(",").split(",");
 
