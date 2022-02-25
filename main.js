@@ -23,7 +23,7 @@ function reformat(string) {
 }
 
 function next_binary_number(array) {
-    if(array.length <= 0) return;
+  if (array.length <= 0) return;
   let newArray = array;
   let flag = 0;
   for (let i = newArray.length - 1; i >= 0; i--) {
